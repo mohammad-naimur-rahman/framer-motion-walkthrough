@@ -14,13 +14,14 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(
-      142deg,
-      rgba(22, 60, 255, 1) 25%,
-      rgba(255, 124, 194, 1) 47%,
-      rgba(73, 247, 177, 1) 68%,
-      rgba(70, 252, 172, 1) 100%
-    );
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+      linear-gradient(
+        142deg,
+        rgba(22, 60, 255, 1) 25%,
+        rgba(255, 124, 194, 1) 47%,
+        rgba(73, 247, 177, 1) 68%,
+        rgba(70, 252, 172, 1) 100%
+      );
     animation: layout-bg 20s linear infinite;
     scale: 4;
     transform-origin: center center;
@@ -48,4 +49,13 @@
 
 .h-layout {
   min-height: calc(100vh - 64px);
+}
+
+.font-hand {
+  font-family: 'Fasthand', cursive;
+}
+
+.homepage-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(115px);
 }
