@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
 .layout {
   color: white;
   min-height: 100vh;
@@ -24,6 +26,15 @@
     transform-origin: center center;
     z-index: -1;
   }
+
+  .home-nav {
+    background: rgb(2, 234, 255);
+    background: linear-gradient(150deg, rgba(2, 234, 255, 1) 0%, rgb(0, 102, 254) 100%);
+
+    .nav-heading {
+      font-family: 'Fasthand', cursive;
+    }
+  }
 }
 
 @keyframes layout-bg {
@@ -33,4 +44,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.h-layout {
+  min-height: calc(100vh - 64px);
 }

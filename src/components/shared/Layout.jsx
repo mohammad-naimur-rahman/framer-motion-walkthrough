@@ -2,11 +2,13 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Nav from './Nav'
 
-const Layout = ({ children }) => {
+const Layout = () => {
   return (
     <main className='layout'>
       <Nav />
-      <Outlet />
+      <section className='mt-16'>
+        <Outlet />
+      </section>
     </main>
   )
 }
