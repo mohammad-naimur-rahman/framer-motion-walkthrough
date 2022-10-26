@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
+import Heading from '../../shared/Lib/Heading'
 
 const spring = {
   type: 'spring',
@@ -14,8 +15,8 @@ const Flex = () => {
 
   return (
     <div>
-      <h3 className='heading'>Layout on flex justify-content change</h3>
-      <div className='switch' data-isOn={isOn} onClick={toggleSwitch}>
+      <Heading>Layout on flex justify-content change</Heading>
+      <div className='switch' data-ison={isOn} onClick={toggleSwitch}>
         <motion.div className='handle' layout transition={spring} />
       </div>
     </div>

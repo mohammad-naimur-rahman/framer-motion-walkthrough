@@ -35,7 +35,7 @@ const Nav = ({ ...rest }) => {
         {links.map(({ id, link, name }) => (
           <motion.li
             key={id}
-            className={`text-slate-100 mx-3 hover:underline ${pathname === link ? 'underline' : ''}`}
+            className={`text-slate-100 mx-2 px-1 hover:border-b ${pathname === link ? 'border-b' : ''}`}
             whileHover={{ scale: 1.1 }}>
             <Link to={link}>{name}</Link>
           </motion.li>
