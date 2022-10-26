@@ -7,7 +7,7 @@ const Nav = ({ ...rest }) => {
   const { pathname } = useLocation()
   return (
     <nav
-      className='flex items-center justify-between px-5 py-3 fixed top-0 left-0 right-0 w-full h-16 home-nav'
+      className='flex items-center justify-between px-5 py-3 fixed top-0 left-0 right-0 w-full h-16 home-nav shadow-md'
       {...rest}>
       <motion.h2
         className='text-4xl nav-heading'

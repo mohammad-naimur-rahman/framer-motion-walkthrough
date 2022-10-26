@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <main className='layout'>
       <Nav />
-      <section className='mt-16 container'>
+      <section className='mt-16 container mx-auto'>
         <Outlet />
       </section>
     </main>

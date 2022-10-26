@@ -13,6 +13,11 @@ h6 {
   @apply font-light;
 }
 
+::selection {
+  color: white;
+  background: rgb(8, 212, 212);
+}
+
 .layout {
   color: white;
   min-height: 100vh;
