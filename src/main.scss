@@ -59,3 +59,28 @@
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(115px);
 }
+
+.switch {
+  width: 160px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.3);
+  @apply flex items-center justify-start rounded-full p-2 mx-auto mt-3 cursor-pointer;
+
+  &[data-isOn='true'] {
+    @apply justify-end;
+
+    .handle {
+      @apply bg-green-500;
+    }
+  }
+
+  .handle {
+    width: 70px;
+    height: 70px;
+    @apply bg-slate-200 rounded-full;
+  }
+}
+
+.heading {
+  @apply py-5 text-center text-3xl font-light relative;
+}
