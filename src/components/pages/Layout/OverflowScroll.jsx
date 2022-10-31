@@ -5,7 +5,9 @@ import { motion } from 'framer-motion'
 const OverflowScroll = () => {
   return (
     <>
-      <Heading>Overflow Scroll</Heading>
+      <Heading>
+        Overflow Scroll <span className='italicd'>(Couldn't understand, will implement later)</span>
+      </Heading>
       <motion.div layoutScroll className='w-80 h-80 overflow-y-scroll mx-auto text-justify p-1'>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ducimus quo, laudantium aut quae architecto
