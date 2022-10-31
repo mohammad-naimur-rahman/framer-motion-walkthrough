@@ -77,14 +77,14 @@ h6 {
 .switch {
   width: 160px;
   height: 80px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.4);
   @apply flex items-center justify-start rounded-full p-2 mx-auto mt-3 cursor-pointer;
 
   &[data-ison='true'] {
     @apply justify-end;
 
     .handle {
-      @apply bg-green-500;
+      @apply bg-green-400;
     }
   }
 
@@ -92,5 +92,28 @@ h6 {
     width: 70px;
     height: 70px;
     @apply bg-slate-200 rounded-full;
+  }
+}
+
+.pink-dot {
+  .parent {
+    background: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parent[data-isopen='true'] {
+    width: 400px;
+    height: 200px;
+  }
+
+  .child {
+    width: 40px;
+    height: 40px;
+    background: #f107a3;
+    border-radius: 50%;
   }
 }
