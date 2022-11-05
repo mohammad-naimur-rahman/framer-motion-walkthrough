@@ -8,9 +8,9 @@ const LayoutGroupComponent = () => {
     <>
       <Heading>Layout Group</Heading>
       <LayoutGroup>
-        <Accordion />
-        <Accordion />
-        <Accordion />
+        <Accordion index={1} />
+        <Accordion index={2} />
+        <Accordion index={3} />
       </LayoutGroup>
     </>
   )
