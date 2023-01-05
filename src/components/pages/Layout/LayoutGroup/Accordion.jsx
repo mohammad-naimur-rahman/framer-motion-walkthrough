@@ -12,8 +12,8 @@ const Accordion = ({ index = 1 }) => {
         {open ? <span className='ml-auto block pr-5'>&uarr;</span> : <span className='ml-auto block pr-5'>&darr;</span>}
       </motion.h4>
       <motion.p layout className='p-3'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. In laborum ab itaque. Voluptate reprehenderit, voluptas
-        dolorem facere deleniti nisi numquam?
+        Accordion {index} <span>&rarr;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. In laborum ab
+        itaque. Voluptate reprehenderit, voluptas dolorem facere deleniti nisi numquam?
       </motion.p>
     </motion.div>
   )

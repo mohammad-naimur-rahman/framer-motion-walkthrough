@@ -4,6 +4,7 @@ import Flex from '../components/pages/Layout/Flex'
 import LayoutGroupComponent from '../components/pages/Layout/LayoutGroup/LayoutGroupComponent'
 import OverflowScroll from '../components/pages/Layout/OverflowScroll'
 import PinkDot from '../components/pages/Layout/PinkDot'
+import Tab from '../components/pages/Tab'
 
 const LayoutPage = () => {
   return (
@@ -13,6 +14,7 @@ const LayoutPage = () => {
       <PinkDot />
       <OverflowScroll />
       <LayoutGroupComponent />
+      <Tab />
     </>
   )
 }
