@@ -132,17 +132,12 @@ label {
 }
 
 .tab {
-  --accent: #8855ff;
-  height: 100vh;
   background: var(--accent);
   overflow: hidden;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 50px;
 
   .window {
+    margin: 0 auto;
     width: 480px;
     height: 360px;
     border-radius: 10px;

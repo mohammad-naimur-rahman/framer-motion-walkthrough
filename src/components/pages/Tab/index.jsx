@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { initialTabs as tabs } from './ingredients'
 import { motion, AnimatePresence } from 'framer-motion'
+import Heading from '../../shared/Lib/Heading'
 
 export default function Tab() {
   const [selectedTab, setSelectedTab] = useState(tabs[0])
 
   return (
     <div className='tab'>
+      <Heading>layout Id</Heading>
       <div className='window'>
         <nav>
           <ul>
